@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do</title>
     <link rel="icon" type="image/x-icon"  href="./Assets/picture proj/logo.png">
+    <link rel="stylesheet" href="./style/about.css">
     <style>
+
+
        
         section { text-align: left;}
        
         form{font-size: x-large;} 
          footer  aside{text-align:center;}
-        section table p{font-family: Georgia, 'Times New Roman', Times, serif;}
-    body{background-color: brown; }
-    </style>
+         section form{ text-align: center;}
+      section h2{ text-align: center;}
+      table h2{margin-left: 2em;}
+    div{
+        margin-left: 25em;
+    }
+    button{ text-align: center;}
+    textarea{ margin-right: 1em;}
+  
+
+ </style>
 </head> 
 
 <body>
-<header> 
+<header>  
+    
     <table width="75%"> 
         <tr> 
-            <th><img src="./Assets/picture proj/logo.png" alt="..." width="30" height="30" >  <b style="font-size: xx-large;"> To Do</b> 
+            <th><img src="./Assets/picture proj/logo.png" alt="..." width="70" height="30" >  <b style="font-size: xx-large;"> To Do</b> 
                
         </th> 
 
@@ -48,22 +60,24 @@
   
    
  </table> 
-<hr>
 
-</header>  <br>
- <main> 
-     <section>
+
+</header> 
+ <main>
+   
+      <div>
+
      <table>
 
          <tr>
-            <td rowspan="3"><img src="./Assets/picture proj/صورة شخصية.jpeg" alt="" width="250" height="250"> </td>
+            <td rowspan="3"><img src="./Assets/picture proj/صورة شخصية.jpeg" alt="" width="100" height="100" > </td>
             <td rowspan="3"> 
-         <p><h2> 
+         <p><h2 style="text-shadow: 5px 10px 5px;"> 
      Hassouneh Sulaiman <h2> 
-     <h3>  I'm 27 years old , I Graduated from Al-Balqa Applied University,electric engineer. <br>
+     <h4 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-decoration: aliceblue; margin-left: 2em;">  I'm 27 years old , I Graduated from Al-Balqa Applied University,electric engineer. <br>
         Now, I'm a studant and a begining web developer in LTUC sinc 2022.
     
-     </h3> </p>
+     </h4> </p>
 
                 </td>
              
@@ -83,38 +97,43 @@
 
 
      </table>
-
-    </section> 
-    
+   
+    </div >
+   
     <section> 
         <h2>Contact Information</h2>
-        <br>
+        
         <form>
  
   <label for="name">Name : </label>
-  <input id="name" type="name"> 
+  <input id="name" type="name"> <br><br>
  
- <label for="em">E-mail : </label>
-  <input id="em" type="email"> 
-  <label for="Message">Message: </label>
-  <input id="Message" type="message"> 
- 
-  <input type="submit">
+ <label for="em">E-mail :  </label>
+  <input id="em" type="email"> <br><br>
+  <label for="phone">Phone :  </label>
+  <input id="phone" type="number"> <br><br>
+  <label for="subject"> Message :     </label>
+  
+  <textarea id="subject" name="subject" 
+      style="height: 150px;"></textarea> <br> <br>
+      <button type="submit" > send   </button>
+         
+
 
 </form>
        
     </section>
 
-<br><br><br>
-    <hr>
+
+    
 
 </main>
+<br>
 <footer>  
 
     <table> <tr> <img src="./Assets/picture proj/logo.png" alt="" width="30" height="30"></tr>
         <tr> <b>This  Website  is protected : &copy;</b> </tr></table> 
- <aside><img src="./Assets/picture proj/social media .jpg" alt=" social media"  width="250"  height="50"></aside>
-    
+ 
 </footer>
 </body>
 </html>

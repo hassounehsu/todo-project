@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+   
+
+}
+body{
+    background-color: aquamarine;
+}
+footer{  width: 100%; 
+    
+    background-color:aqua ;}
+    main{
+        width: 100%;
+      
+    } 
+    td {
+        column-width:200px;
+        text-align: center;}
+        .table {
+            
+            margin-left: 30%;
+            width:40%;
+            text-align: center;
+            line-height: 30px;
+            
+            font-size: 16px;
+            background-color: rgb(181, 168, 209);
+            display: block;
+        border: 2px solid rgb(92, 15, 15);}
+
+        .table td{ 
+            border:1px solid rgb(34, 2, 2);
+        text-align: left;}
+        .Rl {text-align: center;}
+        .s { text-align: right;}
+        .y{text-align: right;}
+        .th{color: blue;}
+    
+
+        
+
+      
+    
+
+ 

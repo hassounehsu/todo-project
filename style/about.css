@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+   
+    background-color: aqua;
+
+}
+footer{  width: 100%; 
+   
+    background-color:aqua ;}
+   
+    body{
+        background-color: aquamarine;
+    }
+    .s { text-align: right;}
+    .y{text-align: right;}
+    .th{color: blue;}
