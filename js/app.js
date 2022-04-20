@@ -15,7 +15,7 @@ var nameUser = prompt(" Enter Your Name");
       else if (genderUser.toLowerCase() =='female')  
              alert("Welcom Ms "  + nameUser );  
              else { alert(" welcome " + nameUser);} */
-
+/*
 
 let questiones = ["Do you like programer ? ", "Do you have background for JS ?", "Do you have background for C++ ?"];
 
@@ -37,5 +37,30 @@ console.log(answers);
 
 
 
+*/
 
 
+let answers = [];
+
+let questionNubone = askQues("Do you like programer ? ");
+let questionNubtow = askQues("Do you have background for JS ? ");
+let questionNubthree = askQues(" Do you have background for C++ ?");
+
+answers = [questionNubone, questionNubtow, questionNubthree]
+
+function askQues(questiones) {
+    let answer = prompt(questiones);
+    return answer
+}
+
+function answerUser(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === "" || arr[i] == null) {
+            console.log("invalid");
+        }
+        else {
+            console.log(arr[i])
+        }
+    }
+}
+answerUser(answers);
