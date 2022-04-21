@@ -39,7 +39,7 @@ console.log(answers);
 
 */
 
-
+/*
 let answers = [];
 
 let questionNubone = askQues("Do you like programer ? ");
@@ -63,4 +63,44 @@ function answerUser(arr) {
         }
     }
 }
-answerUser(answers);
+answerUser(answers);*/
+
+
+// please check in this code bellow
+
+
+
+/*
+
+const questions = ["Do you like programer ? ", "Do you have background for JS ?", "Do you have background for C++ ?"];
+const answers = [];
+
+for (let i = 0; i < questions .length; i++) {
+    const answer = prompt(questions[i]);
+    if (isValidAnswer(answer))
+        answers.push(answer);
+    else {
+        alert("invalid"); answers.push("invalid");
+    }
+}
+
+function sanatizeAnswer(answer) {
+    if (answer) {
+       return answer.toLocaleLowerCase().trim();
+    }
+    
+    return '';
+}
+
+function isValidAnswer(answer) {
+   return sanatizeAnswer(answer) === 'yes' || sanatizeAnswer(answer) === 'no';
+}
+
+function showQuestionsAnswer(questions, answers) {
+    for (let i = 0; i < questions.length; i++) {
+    	 console.log('Question #' + (i + 1) + ': ' + questions[i]);
+	 console.log('Answer #' + (i + 1) + ': ' + answers[i]);
+    }
+}
+
+showQuestionsAnswer(questions, answers);*/
