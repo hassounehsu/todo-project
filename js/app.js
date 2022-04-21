@@ -39,7 +39,7 @@ console.log(answers);
 
 */
 
-/*
+
 let answers = [];
 
 let questionNubone = askQues("Do you like programer ? ");
@@ -63,11 +63,10 @@ function answerUser(arr) {
         }
     }
 }
-answerUser(answers);*/
+answerUser(answers);
 
 
 // please check in this code bellow
-
 
 
 /*
